@@ -1,10 +1,10 @@
 # Rivenside AI Planner
 
-One important note: this is for documentation and planning only. It doesn’t write any code. It gives you a clear foundation and mental map of what you’re building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won’t solve those problems for you, but it can help you think about them from the start.
-
 An AI project planner that interviews you, documents your project, checks for gaps and contradictions, and creates a build plan before coding begins.
 
 Just text files. Nothing to install, no account, no API key.
+
+One important note: this is for documentation and planning only. It doesn’t write any code. It gives you a clear foundation and mental map of what you’re building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won’t solve those problems for you, but it can help you think about them from the start.
 
 ## Why
 
