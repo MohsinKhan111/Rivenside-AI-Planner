@@ -1,0 +1,17 @@
+# never commit a user's own project output
+project-docs/
+.env
+.env.*
+*.key
+*.pem
+
+# machine noise
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+.idea/
+
+# local AI tool state
+.claude/
+.cursor/
