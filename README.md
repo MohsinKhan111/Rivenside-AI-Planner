@@ -25,61 +25,76 @@ Everything stays on your own computer until you are happy with it. No hosting, n
 
 # Setup
 
-You need [Claude Code](https://claude.com/product/claude-code) and a Claude subscription. Cursor and similar tools work too.
+You need **VS Code**, **Claude Code**, and a **Claude subscription**.
 
-## On a Mac
+Same steps on Mac and Windows.
 
-**1.** Open Terminal. Press `Command` + `Space`, type `Terminal`, press Enter.
+### 1. Install VS Code
 
-**2.** Install Claude Code. Paste this, press Enter:
+Download and install [Visual Studio Code](https://code.visualstudio.com/) if you don't already have it.
 
+### 2. Install Claude Code
+
+Open VS Code.
+
+Go to **Extensions** on the left side and search for:
+
+**Claude Code**
+
+Install the official Claude Code extension.
+
+Once installed, open Claude Code from VS Code and sign in with your Claude account.
+
+### 3. Download the Planner
+
+Download this repository from GitHub:
+
+**Code -> Download ZIP**
+
+Extract the ZIP file.
+
+Rename the folder to:
+
+`Rivenside-AI-Planner`
+
+### 4. Create your project
+
+Create a new folder for whatever you want to build.
+
+For example:
+
+`My Game`
+
+Then put the `Rivenside-AI-Planner` folder inside it.
+
+Your project should look like this:
+
+```text
+My Game/
+└── Rivenside-AI-Planner/
 ```
-curl -fsSL https://claude.ai/install.sh | bash
-```
 
-**3.** Download this repo. Green **Code** button above, then **Download ZIP**. Double click it to unzip. Rename the folder from `Rivenside-AI-Planner-main` to `Rivenside-AI-Planner`.
+### 5. Open your project in VS Code
 
-**4.** Make a folder for your project. Anywhere. Name it after your project.
+In VS Code, go to:
 
-**5.** Drag `Rivenside-AI-Planner` into your project folder.
+**File -> Open Folder**
 
-**6.** In Terminal, type `cd` and a space, then drag your project folder onto the Terminal window. Press Enter.
+Select your project folder (`My Game`).
 
-**7.** Type `claude` and press Enter. First time, it opens your browser to log in.
+### 6. Start the Planner
 
-**8.** Type this and press Enter:
+Open Claude Code inside VS Code.
 
-```
+Tell it:
+
+```text
 Read Rivenside-AI-Planner/START-HERE.md and begin
 ```
 
-## On Windows
+Claude will read the Planner and guide you through the rest.
 
-**1.** Open PowerShell. Press the Windows key, type `powershell`, press Enter.
-
-**2.** Install Claude Code. Paste this, press Enter:
-
-```
-irm https://claude.ai/install.ps1 | iex
-```
-
-Also install [Git for Windows](https://git-scm.com/downloads/win) if you do not have it. Claude works better with it.
-
-**3.** Download this repo. Green **Code** button above, then **Download ZIP**. Right click the file, Extract All. Rename the folder from `Rivenside-AI-Planner-main` to `Rivenside-AI-Planner`.
-
-**4.** Make a folder for your project. Anywhere. Name it after your project.
-
-**5.** Drag `Rivenside-AI-Planner` into your project folder.
-
-**6.** Open your project folder in File Explorer. Hold `Shift`, right click empty space, choose **Open in Terminal**.
-
-**7.** Type `claude` and press Enter. First time, it opens your browser to log in.
-
-**8.** Type this and press Enter:
-
-```
-Read Rivenside-AI-Planner/START-HERE.md and begin
-```
+That's it. You don't need to install anything else for the Planner itself.
 
 ---
 
