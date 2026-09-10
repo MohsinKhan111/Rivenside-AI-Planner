@@ -1,4 +1,4 @@
-# Rivenside
+# Rivenside AI Planner
 
 Instructions that make an AI coding tool plan your project properly before it writes any code.
 
@@ -35,7 +35,7 @@ Claude Code, Cursor, or a similar AI coding tool. A Claude subscription if you u
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**3. Download Rivenside.** Click the green Code button at the top of this page, then Download ZIP. Open the downloaded file to unzip it. You will get a folder called `rivenside-main`. Rename it to `rivenside`.
+**3. Download Rivenside.** Click the green Code button at the top of this page, then Download ZIP. Open the downloaded file to unzip it. You will get a folder called `Rivenside-AI-Planner-main`. Rename it to `rivenside` so the commands below are shorter.
 
 **4. Make a folder for your project.** Anywhere you like. Call it whatever your project is called.
 
