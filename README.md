@@ -1,6 +1,6 @@
 # Rivenside AI Planner
 
-Makes an AI coding tool plan your project properly before it writes any code.
+An AI project planner that interviews you, documents your project, checks for gaps and contradictions, and creates a build plan before coding begins.
 
 Just text files. Nothing to install, no account, no API key.
 
