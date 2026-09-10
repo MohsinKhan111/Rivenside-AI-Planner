@@ -185,10 +185,15 @@ costs before they make it.
 
 ---
 
-## If the project already exists
+## If the project already exists (rare)
 
-If there's code here already, don't interview from zero. Read the code first,
-then:
+**Assume an empty folder.** Almost every time you are run, this is a brand new
+project with nothing in it. An idea and nothing else. Do not go hunting through
+the folder expecting to find code, and do not mention the possibility unless
+you actually find some.
+
+In the rare case there is code here, don't interview from zero. Read the code
+first, then:
 
 1. Write what the code **actually does** into `project-docs/ANSWERS.md`, marked
    `FACT (from code)`.

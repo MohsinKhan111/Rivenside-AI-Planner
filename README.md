@@ -112,7 +112,9 @@ Plain markdown. Any AI tool or any person can read them.
 
 ## Already started your project?
 
-Same steps. It reads your code first, writes down what the code actually does, then only asks about things the code cannot tell it. If your answers and the code disagree, it says so instead of picking one.
+This is built for starting from scratch. An empty folder, an idea, nothing written yet. That is where it does its best work.
+
+You can still use it on a project that already exists. It reads your code first, writes down what the code actually does, then only asks about things the code cannot tell it. If your answers and the code disagree, it says so instead of picking one. Just know that is the rarer case, not the main one.
 
 ## Changing it for yourself
 
