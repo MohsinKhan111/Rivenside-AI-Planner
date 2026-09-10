@@ -90,9 +90,11 @@ Plain markdown. Any AI tool or any person can read them.
 
 Same steps. It reads your code first, writes down what the code actually does, and only asks you about things the code cannot tell it. If your answers and the code disagree, it says so rather than picking one.
 
-## Changing it
+## Changing it for yourself
 
-Everything is a text file. If a question is wrong or missing, open `rivenside/stages/1-INTERVIEW.md` and edit it.
+Everything is a plain text file. Once you have downloaded your copy, it is yours to change however you like.
+
+If a question is wrong or missing for your project, open `rivenside/stages/1-INTERVIEW.md` on your own machine and edit it. Nothing you change affects anyone else.
 
 ## Licence
 
