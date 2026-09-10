@@ -6,11 +6,11 @@ Just text files. Nothing to install, no account, no API key.
 
 ## Why
 
-AI forgets. Every message it starts again from a shorter summary of your project, but it acts like it remembers everything.
+AI coding agents do not have your whole project in front of them at every step. They look at the parts they judge relevant, and long conversations get compressed as they go. That is a design tradeoff, not a bug.
 
-So when you ask for a new feature in week three, it cannot re-read the whole project. It patches the part it can see and says it works. It usually does work. Your app is also slower and messier now, and you will not notice for weeks.
+It shows up when you ask for a new feature in week three. The agent works from what it can see, changes that, and tells you it works. It usually does work. Your app is also slower and messier now, and you may not notice for weeks.
 
-The fix is not a better memory. It is not needing one. Answer everything up front, write it down, then break the build into steps small enough that each one is obvious on its own.
+The fix is not more context. It is needing less. Answer everything up front, write it down, then break the build into steps small enough that each one is obvious on its own.
 
 ## What it does
 

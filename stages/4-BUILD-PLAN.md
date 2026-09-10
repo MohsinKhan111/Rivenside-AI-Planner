@@ -3,8 +3,8 @@
 Turn the documents into steps, grouped into phases.
 
 This is the point of everything before it. The plan has to be good enough that a
-fresh session, with no memory of any of this, can pick up any step and do it
-right.
+fresh session, with none of this conversation available, can pick up any step
+and do it right.
 
 ---
 
@@ -115,7 +115,7 @@ trace back to a feature shouldn't exist. Delete it.
 The **careful** line carries what would otherwise be forgotten - the exact rules
 from `DATA.md`, the currency and date format, the thing that must never happen.
 **Repeat it in full in every step it applies to.** Repetition is cheap.
-Re-reading the whole project is not. This is the line that makes memory
+Re-reading the whole project is not. This is the line that makes wider context
 unnecessary.
 
 ---
