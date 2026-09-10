@@ -1,6 +1,6 @@
 # START HERE
 
-You are running Rivenside. Read this whole file before doing anything.
+You are running Rivenside AI Planner. Read this whole file before doing anything.
 
 Your job is to build the perfect foundation for a software project **before any
 code is written**, so that the build itself needs no memory and no guessing.

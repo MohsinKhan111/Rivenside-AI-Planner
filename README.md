@@ -35,11 +35,11 @@ Claude Code, Cursor, or a similar AI coding tool. A Claude subscription if you u
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**3. Download Rivenside.** Click the green Code button at the top of this page, then Download ZIP. Open the downloaded file to unzip it. You will get a folder called `Rivenside-AI-Planner-main`. Rename it to `rivenside` so the commands below are shorter.
+**3. Download Rivenside AI Planner.** Click the green Code button at the top of this page, then Download ZIP. Open the downloaded file to unzip it. You will get a folder called `Rivenside-AI-Planner-main`. Rename it to `Rivenside-AI-Planner`.
 
 **4. Make a folder for your project.** Anywhere you like. Call it whatever your project is called.
 
-**5. Drag the unzipped `rivenside` folder into your project folder.**
+**5. Drag the `Rivenside-AI-Planner` folder into your project folder.**
 
 **6. Point Terminal at your project.** Type `cd ` (with a space after it), then drag your project folder onto the Terminal window and press Enter.
 
@@ -54,7 +54,7 @@ The first time, it will ask you to log in through your browser.
 **8. Start the interview.** Type this and press Enter:
 
 ```
-Read rivenside/START-HERE.md and begin
+Read Rivenside-AI-Planner/START-HERE.md and begin
 ```
 
 That is it. Answer the questions.
@@ -94,7 +94,7 @@ Same steps. It reads your code first, writes down what the code actually does, a
 
 Everything is a plain text file. Once you have downloaded your copy, it is yours to change however you like.
 
-If a question is wrong or missing for your project, open `rivenside/stages/1-INTERVIEW.md` on your own machine and edit it. Nothing you change affects anyone else.
+If a question is wrong or missing for your project, open `Rivenside-AI-Planner/stages/1-INTERVIEW.md` on your own machine and edit it. Nothing you change affects anyone else.
 
 ## Licence
 
