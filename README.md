@@ -6,11 +6,11 @@ Just text files. Nothing to install, no account, no API key.
 
 ## Why
 
-AI coding agents do not have your whole project in front of them at every step. They look at the parts they judge relevant, and long conversations get compressed as they go. That is a design tradeoff, not a bug.
+Starting a project with AI usually means explaining your idea, scope, requirements, and decisions yourself, prompt by prompt. Then you have to keep repeating and maintaining that context as the project grows.
 
-It shows up when you ask for a new feature in week three. The agent works from what it can see, changes that, and tells you it works. It usually does work. Your app is also slower and messier now, and you may not notice for weeks.
+This flips that process around. The AI interviews you, asks the questions, records the answers, cross-checks everything for gaps and contradictions, and organizes it into proper project documentation before you start coding.
 
-The fix is not more context. It is needing less. Answer everything up front, write it down, then break the build into steps small enough that each one is obvious on its own.
+You review that foundation first, then build from it in small, clearly defined steps.
 
 ## What it does
 
