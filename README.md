@@ -1,75 +1,99 @@
 # Rivenside AI Planner
 
-Instructions that make an AI coding tool plan your project properly before it writes any code.
+Makes an AI coding tool plan your project properly before it writes any code.
 
-It is just text files. Nothing to install, no account, no API key.
+Just text files. Nothing to install, no account, no API key.
 
 ## Why
 
-AI forgets. Every message it starts again from a shorter summary of your project. It acts like it remembers everything, so you assume it does.
+AI forgets. Every message it starts again from a shorter summary of your project, but it acts like it remembers everything.
 
-That is why projects fall apart halfway. You ask for a new feature in week three. The AI cannot re-read the whole project, so it patches the part it can see and tells you it works. It usually does work. The app is also slower and messier now, and you will not notice for weeks.
+So when you ask for a new feature in week three, it cannot re-read the whole project. It patches the part it can see and says it works. It usually does work. Your app is also slower and messier now, and you will not notice for weeks.
 
-The fix is not a better memory. It is not needing one. Answer everything up front, write it down, break the build into steps small enough that each one is obvious on its own.
+The fix is not a better memory. It is not needing one. Answer everything up front, write it down, then break the build into steps small enough that each one is obvious on its own.
 
 ## What it does
 
-1. Asks you questions, one at a time. Around 30 for something small, more for something serious.
+1. Asks you questions, one at a time. Around 30 for something small.
 2. Writes down every answer as you go.
-3. Reads it all back, checks it like an engineer would, and asks about anything that does not add up.
+3. Reads it all back, checks it like an engineer would, asks about anything that does not add up.
 4. Turns it into a build plan of small steps, then builds them in order.
 
-It keeps everything on your own machine until you are happy with it. No hosting, no domains. Logins and payments are saved for later, after the thing actually works.
+Everything stays on your own computer until you are happy with it. No hosting, no domains. Logins and payments come later, after the thing actually works.
 
-## What you need
+---
 
-Claude Code, Cursor, or a similar AI coding tool. A Claude subscription if you use Claude Code.
+# Setup
 
-## Setup on a Mac
+You need [Claude Code](https://claude.com/product/claude-code) and a Claude subscription. Cursor and similar tools work too.
 
-**1. Open Terminal.** Press Command and Space, type `Terminal`, press Enter.
+## On a Mac
 
-**2. Install Claude Code.** Paste this and press Enter:
+**1.** Open Terminal. Press `Command` + `Space`, type `Terminal`, press Enter.
+
+**2.** Install Claude Code. Paste this, press Enter:
 
 ```
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**3. Download Rivenside AI Planner.** Click the green Code button at the top of this page, then Download ZIP. Open the downloaded file to unzip it. You will get a folder called `Rivenside-AI-Planner-main`. Rename it to `Rivenside-AI-Planner`.
+**3.** Download this repo. Green **Code** button above, then **Download ZIP**. Double click it to unzip. Rename the folder from `Rivenside-AI-Planner-main` to `Rivenside-AI-Planner`.
 
-**4. Make a folder for your project.** Anywhere you like. Call it whatever your project is called.
+**4.** Make a folder for your project. Anywhere. Name it after your project.
 
-**5. Drag the `Rivenside-AI-Planner` folder into your project folder.**
+**5.** Drag `Rivenside-AI-Planner` into your project folder.
 
-**6. Point Terminal at your project.** Type `cd ` (with a space after it), then drag your project folder onto the Terminal window and press Enter.
+**6.** In Terminal, type `cd` and a space, then drag your project folder onto the Terminal window. Press Enter.
 
-**7. Start Claude.** Type:
+**7.** Type `claude` and press Enter. First time, it opens your browser to log in.
 
-```
-claude
-```
-
-The first time, it will ask you to log in through your browser.
-
-**8. Start the interview.** Type this and press Enter:
+**8.** Type this and press Enter:
 
 ```
 Read Rivenside-AI-Planner/START-HERE.md and begin
 ```
 
-That is it. Answer the questions.
+## On Windows
 
-## While you are answering
+**1.** Open PowerShell. Press the Windows key, type `powershell`, press Enter.
 
-Take your time. It saves everything as it goes, so you can close the laptop and come back later.
+**2.** Install Claude Code. Paste this, press Enter:
 
-If a question stumps you, say `skip`, `I don't know`, or `you decide`. It will note it and move on. Guessing an answer is worse than skipping one, because guesses get written down as facts.
+```
+irm https://claude.ai/install.ps1 | iex
+```
 
-Paste in anything that helps. Screenshots, links to sites you like, sketches, half-finished notes.
+Also install [Git for Windows](https://git-scm.com/downloads/win) if you do not have it. Claude works better with it.
 
-## What you end up with
+**3.** Download this repo. Green **Code** button above, then **Download ZIP**. Right click the file, Extract All. Rename the folder from `Rivenside-AI-Planner-main` to `Rivenside-AI-Planner`.
 
-A folder called `project-docs` in your project, containing:
+**4.** Make a folder for your project. Anywhere. Name it after your project.
+
+**5.** Drag `Rivenside-AI-Planner` into your project folder.
+
+**6.** Open your project folder in File Explorer. Hold `Shift`, right click empty space, choose **Open in Terminal**.
+
+**7.** Type `claude` and press Enter. First time, it opens your browser to log in.
+
+**8.** Type this and press Enter:
+
+```
+Read Rivenside-AI-Planner/START-HERE.md and begin
+```
+
+---
+
+## Answering the questions
+
+Take your time. It saves as it goes, so you can close your laptop and come back later.
+
+Stuck on one? Say `skip`, `I don't know`, or `you decide`. It notes it and moves on. Guessing is worse than skipping, because guesses get written down as facts.
+
+Paste in anything that helps. Screenshots, links to sites you like, sketches, rough notes.
+
+## What you get
+
+A `project-docs` folder in your project:
 
 | File | What is in it |
 |---|---|
@@ -86,15 +110,15 @@ A folder called `project-docs` in your project, containing:
 
 Plain markdown. Any AI tool or any person can read them.
 
-## Using it on a project that already exists
+## Already started your project?
 
-Same steps. It reads your code first, writes down what the code actually does, and only asks you about things the code cannot tell it. If your answers and the code disagree, it says so rather than picking one.
+Same steps. It reads your code first, writes down what the code actually does, then only asks about things the code cannot tell it. If your answers and the code disagree, it says so instead of picking one.
 
 ## Changing it for yourself
 
-Everything is a plain text file. Once you have downloaded your copy, it is yours to change however you like.
+Once you download it, your copy is yours. Edit anything.
 
-If a question is wrong or missing for your project, open `Rivenside-AI-Planner/stages/1-INTERVIEW.md` on your own machine and edit it. Nothing you change affects anyone else.
+Questions wrong or missing? Open `Rivenside-AI-Planner/stages/1-INTERVIEW.md` on your computer and change them. Nothing you do affects anyone else.
 
 ## Licence
 
