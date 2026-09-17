@@ -4,7 +4,7 @@ An AI project planner that interviews you, documents your project, checks for ga
 
 Just text files. Nothing to install, no account, no API key.
 
-One important note: this is for documentation and planning only. It doesn’t write any code. It gives you a clear foundation and mental map of what you’re building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won’t solve those problems for you, but it can help you think about them from the start.
+One important note: the Planner itself is for documentation and planning only. It doesn’t write any code. The code is written afterwards by Claude Code, following the plan one step at a time. The Planner gives you a clear foundation and mental map of what you’re building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won’t solve those problems for you, but it can help you think about them from the start.
 
 ## Why
 
@@ -19,7 +19,7 @@ You review that foundation first, then build from it in small, clearly defined s
 1. Asks you questions, one at a time. Around 30 for something small.
 2. Writes down every answer as you go.
 3. Reads it all back, checks it like an engineer would, asks about anything that does not add up.
-4. Turns it into a build plan of small steps, then builds them in order.
+4. Turns it into a build plan of small steps, which Claude Code then builds in order.
 
 Everything stays on your own computer until you are happy with it. No hosting, no domains. Logins and payments come later, after the thing actually works.
 
