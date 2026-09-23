@@ -23,7 +23,7 @@ Section 0 tells you. Then:
 
 | Project | Ask | Roughly |
 |---|---|---|
-| Just for you, no money, no accounts | Sections 0-7, 10, 17, 20, plus the starred design questions in 8 | ~60 |
+| Just for you, no money, no accounts | Sections 0-7, 10, 17, 20, plus the `[core]` design questions in 8 | ~60 |
 | Real users, stores data | Add the rest of 8, plus 9, 13-16, 18, 19 | ~85 |
 | Money, private data, or a team | All of it | 106 |
 
@@ -106,14 +106,17 @@ different direction.
 feels than about anything under the hood. A working app that feels wrong gets
 abandoned. Ask properly, and give honest opinions.
 
-36. Show me anything you've got - screenshots, sketches, photos, a Figma file, a site you love. Paste it in. This is worth more than any description.
-37. Any sites or apps whose look you like? What specifically about them?
-38. What should it definitely *not* look like?
-39. Clean and plain, or bold and full of personality?
-40. Light, dark, or both?
-41. Any colours or fonts already in mind? Existing brand?
+Questions tagged `[core]` are the minimum. Ask those even on the smallest
+project, or `DESIGN.md` ends up full of guesses.
+
+36. Show me anything you've got - screenshots, sketches, photos, a Figma file, a site you love. Paste it in. This is worth more than any description.  `[core]`
+37. Any sites or apps whose look you like? What specifically about them?  `[core]`
+38. What should it definitely *not* look like?  `[core]`
+39. Clean and plain, or bold and full of personality?  `[core]`
+40. Light, dark, or both?  `[core]`
+41. Any colours or fonts already in mind? Existing brand?  `[core]`
 42. Is this mostly reading, or mostly doing? *(Changes the whole layout.)*
-43. Where will most people see it - phone or computer? Build for that one first.
+43. Where will most people see it - phone or computer? Build for that one first.  `[core]`
 44. Should it feel calm and quiet, or fast and punchy?
 45. Any animation, or should things just appear?
 46. What do the buttons actually say? What shows on a screen with nothing on it yet?
