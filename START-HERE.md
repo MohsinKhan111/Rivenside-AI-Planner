@@ -51,7 +51,7 @@ Then ask question 1.
 far along they are:
 
 ```
-Question 12 of ~50  ·  section 4 of 21
+Question 12 of ~60  ·  section 4 of 21
 ```
 
 An interview with no visible end is why people start giving one-word answers.

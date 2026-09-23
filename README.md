@@ -16,7 +16,7 @@ You review that foundation first, then build from it in small, clearly defined s
 
 ## What it does
 
-1. Asks you questions, one at a time. Around 30 for something small.
+1. Asks you questions, one at a time. Around 60 for something small, more for something serious. Fewer if you skip.
 2. Writes down every answer as you go.
 3. Reads it all back, checks it like an engineer would, asks about anything that does not add up.
 4. Turns it into a build plan of small steps, which Claude Code then builds in order.

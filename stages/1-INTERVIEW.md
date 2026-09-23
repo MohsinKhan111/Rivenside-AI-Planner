@@ -21,11 +21,14 @@ Ask these questions. One at a time. Write every answer to
 
 Section 0 tells you. Then:
 
-| Project | Ask |
-|---|---|
-| Just for you, no money, no accounts | Sections 0-7, 10, 17, 20. ~20 questions |
-| Real users, stores data | Add 8, 9, 11, 13-16, 18, 19 |
-| Money, private data, or a team | All of it |
+| Project | Ask | Roughly |
+|---|---|---|
+| Just for you, no money, no accounts | Sections 0-7, 10, 17, 20, plus the starred design questions in 8 | ~60 |
+| Real users, stores data | Add the rest of 8, plus 9, 13-16, 18, 19 | ~85 |
+| Money, private data, or a team | All of it | 106 |
+
+Fewer in practice. Answers overlap, whole sections get skipped, and people say
+"skip" or "you decide".
 
 Don't run all 21 sections on a weekend project. That's the same mistake in a
 different direction.
