@@ -27,7 +27,7 @@ Section 0 tells you. Then:
 | Real users, stores data | Add 8, 9, 11, 13-16, 18, 19 |
 | Money, private data, or a team | All of it |
 
-Don't run all 20 sections on a weekend project. That's the same mistake in a
+Don't run all 21 sections on a weekend project. That's the same mistake in a
 different direction.
 
 ---

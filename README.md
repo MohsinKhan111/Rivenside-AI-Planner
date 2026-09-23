@@ -4,7 +4,7 @@ An AI project planner that interviews you, documents your project, checks for ga
 
 Just text files. Nothing to install, no account, no API key.
 
-One important note: the Planner itself is for documentation and planning only. It doesn’t write any code. The code is written afterwards by Claude Code, following the plan one step at a time. The Planner gives you a clear foundation and mental map of what you’re building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won’t solve those problems for you, but it can help you think about them from the start.
+One important note: the Planner itself is for documentation and planning only. It doesn't write any code. The code is written afterwards by Claude Code, following the plan one step at a time. The Planner gives you a clear foundation and mental map of what you're building, how it fits together, and how ambitious or technically deep it is. You still need to review your code and architecture carefully and build responsibly. It won't solve those problems for you, but it can help you think about them from the start.
 
 ## Why
 
@@ -114,6 +114,7 @@ A `project-docs` folder in your project:
 
 | File | What is in it |
 |---|---|
+| `ANSWERS.md` | Every answer you gave, timestamped, exactly as you said it |
 | `RULES.md` | The limits you agreed. Short. Read at the start of every session. |
 | `PROJECT.md` | What it is, who it is for, what it will never do |
 | `FEATURES.md` | Every feature, numbered, marked required or later or no |
